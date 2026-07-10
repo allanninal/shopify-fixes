@@ -41,6 +41,7 @@ Python needs `pip install requests`. Node needs Node 18 or newer.
 | [high-risk-orders-unactioned](./high-risk-orders-unactioned/) | Tag high-risk orders for review before they ship | Diagnostic | [Read](https://www.allanninal.dev/shopify/high-risk-orders-unactioned/) |
 | [negative-inventory-oversell](./negative-inventory-oversell/) | Reset oversold variants from negative back to zero | Repair | [Read](https://www.allanninal.dev/shopify/negative-inventory-oversell/) |
 | [renewal-fails-expired-card](./renewal-fails-expired-card/) | Email subscribers with an expired/revoked card before renewal | Reconciler | [Read](https://www.allanninal.dev/shopify/renewal-fails-expired-card/) |
+| [transactions-total-mismatch](./transactions-total-mismatch/) | Flag orders whose transactions do not tie out | Diagnostic | [Read](https://www.allanninal.dev/shopify/transactions-total-mismatch/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
