@@ -42,6 +42,7 @@ Python needs `pip install requests`. Node needs Node 18 or newer.
 | [negative-inventory-oversell](./negative-inventory-oversell/) | Reset oversold variants from negative back to zero | Repair | [Read](https://www.allanninal.dev/shopify/negative-inventory-oversell/) |
 | [renewal-fails-expired-card](./renewal-fails-expired-card/) | Email subscribers with an expired/revoked card before renewal | Reconciler | [Read](https://www.allanninal.dev/shopify/renewal-fails-expired-card/) |
 | [transactions-total-mismatch](./transactions-total-mismatch/) | Flag orders whose transactions do not tie out | Diagnostic | [Read](https://www.allanninal.dev/shopify/transactions-total-mismatch/) |
+| [orders-stuck-unfulfilled](./orders-stuck-unfulfilled/) | Tag paid orders overdue past the fulfillment SLA | Diagnostic | [Read](https://www.allanninal.dev/shopify/orders-stuck-unfulfilled/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
