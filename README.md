@@ -43,6 +43,34 @@ Python needs `pip install requests`. Node needs Node 18 or newer.
 | [renewal-fails-expired-card](./renewal-fails-expired-card/) | Email subscribers with an expired/revoked card before renewal | Reconciler | [Read](https://www.allanninal.dev/shopify/renewal-fails-expired-card/) |
 | [transactions-total-mismatch](./transactions-total-mismatch/) | Flag orders whose transactions do not tie out | Diagnostic | [Read](https://www.allanninal.dev/shopify/transactions-total-mismatch/) |
 | [orders-stuck-unfulfilled](./orders-stuck-unfulfilled/) | Tag paid orders overdue past the fulfillment SLA | Diagnostic | [Read](https://www.allanninal.dev/shopify/orders-stuck-unfulfilled/) |
+| [3pl-fulfillment-out-of-sync](./3pl-fulfillment-out-of-sync/) | 3PL fulfillment out of sync | Reconciler | [Read](https://www.allanninal.dev/shopify/3pl-fulfillment-out-of-sync/) |
+| [available-drifted-from-real-on-hand](./available-drifted-from-real-on-hand/) | Available drifted from real on-hand | Reconciler | [Read](https://www.allanninal.dev/shopify/available-drifted-from-real-on-hand/) |
+| [billing-runs-on-a-cancelled-contract](./billing-runs-on-a-cancelled-contract/) | Billing runs on a cancelled contract | Reconciler | [Read](https://www.allanninal.dev/shopify/billing-runs-on-a-cancelled-contract/) |
+| [bulk-stock-true-up-after-a-bad-import](./bulk-stock-true-up-after-a-bad-import/) | Bulk stock true-up after a bad import | Reconciler | [Read](https://www.allanninal.dev/shopify/bulk-stock-true-up-after-a-bad-import/) |
+| [chargeback-pulled-funds-order-still-paid](./chargeback-pulled-funds-order-still-paid/) | Chargeback pulled funds, order still Paid | Reconciler | [Read](https://www.allanninal.dev/shopify/chargeback-pulled-funds-order-still-paid/) |
+| [contract-has-no-valid-payment-method](./contract-has-no-valid-payment-method/) | Contract has no valid payment method | Diagnostic | [Read](https://www.allanninal.dev/shopify/contract-has-no-valid-payment-method/) |
+| [dunning-never-retries-a-failed-charge](./dunning-never-retries-a-failed-charge/) | Dunning never retries a failed charge | Repair | [Read](https://www.allanninal.dev/shopify/dunning-never-retries-a-failed-charge/) |
+| [duplicate-customers-for-one-email-shopify](./duplicate-customers-for-one-email-shopify/) | Duplicate customers for one email | Reconciler | [Read](https://www.allanninal.dev/shopify/duplicate-customers-for-one-email-shopify/) |
+| [duplicate-webhook-deliveries-run-twice](./duplicate-webhook-deliveries-run-twice/) | Duplicate webhook deliveries run twice | Reconciler | [Read](https://www.allanninal.dev/shopify/duplicate-webhook-deliveries-run-twice/) |
+| [external-id-metafield-dropped-on-create](./external-id-metafield-dropped-on-create/) | External id metafield dropped on create | Repair | [Read](https://www.allanninal.dev/shopify/external-id-metafield-dropped-on-create/) |
+| [fulfillment-stuck-on-hold](./fulfillment-stuck-on-hold/) | Fulfillment stuck On hold | Repair | [Read](https://www.allanninal.dev/shopify/fulfillment-stuck-on-hold/) |
+| [missed-webhooks-with-no-backfill](./missed-webhooks-with-no-backfill/) | Missed webhooks with no backfill | Reconciler | [Read](https://www.allanninal.dev/shopify/missed-webhooks-with-no-backfill/) |
+| [next-billing-date-drifts](./next-billing-date-drifts/) | Next billing date drifts | Reconciler | [Read](https://www.allanninal.dev/shopify/next-billing-date-drifts/) |
+| [on-hand-vs-available-vs-committed](./on-hand-vs-available-vs-committed/) | On hand vs available vs committed drift | Diagnostic | [Read](https://www.allanninal.dev/shopify/on-hand-vs-available-vs-committed/) |
+| [paid-checkouts-stranded-as-abandoned](./paid-checkouts-stranded-as-abandoned/) | Paid checkouts stranded as abandoned | Reconciler | [Read](https://www.allanninal.dev/shopify/paid-checkouts-stranded-as-abandoned/) |
+| [partial-refund-leaves-the-tax-untouched](./partial-refund-leaves-the-tax-untouched/) | Partial refund leaves the tax untouched | Repair | [Read](https://www.allanninal.dev/shopify/partial-refund-leaves-the-tax-untouched/) |
+| [presentment-vs-settlement-currency-shopify](./presentment-vs-settlement-currency-shopify/) | Presentment vs settlement currency | Reconciler | [Read](https://www.allanninal.dev/shopify/presentment-vs-settlement-currency-shopify/) |
+| [processing-fee-not-recorded-on-the-order](./processing-fee-not-recorded-on-the-order/) | Processing fee not recorded on the order | Reconciler | [Read](https://www.allanninal.dev/shopify/processing-fee-not-recorded-on-the-order/) |
+| [reconcile-orders-against-payouts](./reconcile-orders-against-payouts/) | Reconcile orders against payouts | Reconciler | [Read](https://www.allanninal.dev/shopify/reconcile-orders-against-payouts/) |
+| [refund-exists-but-the-money-never-moved](./refund-exists-but-the-money-never-moved/) | Refund exists but the money never moved | Reconciler | [Read](https://www.allanninal.dev/shopify/refund-exists-but-the-money-never-moved/) |
+| [routed-to-an-out-of-stock-location](./routed-to-an-out-of-stock-location/) | Routed to an out-of-stock location | Repair | [Read](https://www.allanninal.dev/shopify/routed-to-an-out-of-stock-location/) |
+| [test-and-bogus-gateway-orders-in-live-data](./test-and-bogus-gateway-orders-in-live-data/) | Test and Bogus Gateway orders in live data | Reconciler | [Read](https://www.allanninal.dev/shopify/test-and-bogus-gateway-orders-in-live-data/) |
+| [untracked-items-sell-without-limit](./untracked-items-sell-without-limit/) | Untracked items sell without limit | Diagnostic | [Read](https://www.allanninal.dev/shopify/untracked-items-sell-without-limit/) |
+| [webhook-hmac-check-keeps-failing](./webhook-hmac-check-keeps-failing/) | Webhook HMAC check keeps failing | Diagnostic | [Read](https://www.allanninal.dev/shopify/webhook-hmac-check-keeps-failing/) |
+| [webhook-subscription-auto-deleted](./webhook-subscription-auto-deleted/) | Webhook subscription auto-deleted | Repair | [Read](https://www.allanninal.dev/shopify/webhook-subscription-auto-deleted/) |
+| [duplicate-renewal-charges](./duplicate-renewal-charges/) | Duplicate renewal charges | Reconciler | [Read](https://www.allanninal.dev/shopify/duplicate-renewal-charges/) |
+| [overselling-from-concurrent-writes](./overselling-from-concurrent-writes/) | Overselling from concurrent writes | Reconciler | [Read](https://www.allanninal.dev/shopify/overselling-from-concurrent-writes/) |
+| [selling-plan-deleted-after-app-uninstall](./selling-plan-deleted-after-app-uninstall/) | Selling plan deleted after app uninstall | Repair | [Read](https://www.allanninal.dev/shopify/selling-plan-deleted-after-app-uninstall/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
