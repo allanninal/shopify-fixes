@@ -40,6 +40,7 @@ Python needs `pip install requests`. Node needs Node 18 or newer.
 | [duplicate-charge-transactions](./duplicate-charge-transactions/) | Detect and refund a duplicate charge on an order | Repair | [Read](https://www.allanninal.dev/shopify/duplicate-charge-transactions/) |
 | [high-risk-orders-unactioned](./high-risk-orders-unactioned/) | Tag high-risk orders for review before they ship | Diagnostic | [Read](https://www.allanninal.dev/shopify/high-risk-orders-unactioned/) |
 | [negative-inventory-oversell](./negative-inventory-oversell/) | Reset oversold variants from negative back to zero | Repair | [Read](https://www.allanninal.dev/shopify/negative-inventory-oversell/) |
+| [renewal-fails-expired-card](./renewal-fails-expired-card/) | Email subscribers with an expired/revoked card before renewal | Reconciler | [Read](https://www.allanninal.dev/shopify/renewal-fails-expired-card/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
