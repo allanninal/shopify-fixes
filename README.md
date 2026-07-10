@@ -39,6 +39,7 @@ Python needs `pip install requests`. Node needs Node 18 or newer.
 | [authorized-payment-expires-uncaptured](./authorized-payment-expires-uncaptured/) | Capture authorized orders before the hold expires | Reconciler | [Read](https://www.allanninal.dev/shopify/authorized-payment-expires-uncaptured/) |
 | [duplicate-charge-transactions](./duplicate-charge-transactions/) | Detect and refund a duplicate charge on an order | Repair | [Read](https://www.allanninal.dev/shopify/duplicate-charge-transactions/) |
 | [high-risk-orders-unactioned](./high-risk-orders-unactioned/) | Tag high-risk orders for review before they ship | Diagnostic | [Read](https://www.allanninal.dev/shopify/high-risk-orders-unactioned/) |
+| [negative-inventory-oversell](./negative-inventory-oversell/) | Reset oversold variants from negative back to zero | Repair | [Read](https://www.allanninal.dev/shopify/negative-inventory-oversell/) |
 
 More fixes land as the guides are published. Watch or star the repo to follow along.
 
