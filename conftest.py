@@ -4,3 +4,4 @@ import os
 
 os.environ.setdefault("SHOPIFY_SHOP", "example.myshopify.com")
 os.environ.setdefault("SHOPIFY_ACCESS_TOKEN", "shpat_dummy")
+os.environ.setdefault("OUT_OF_STOCK_LOCATION_ID", "gid://shopify/Location/1")
