@@ -1,0 +1,13 @@
+{
+  "name": "shopify-fixes",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Tested Python and Node.js scripts that fix Shopify order, payment, subscription, and inventory problems.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Allan Niñal",
+  "license": "MIT",
+  "homepage": "https://www.allanninal.dev/shopify/"
+}
